@@ -1,11 +1,12 @@
-
 html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   margin: 0 0 100px; /* bottom = footer height */
 }
+
 .page-footer {
   position: absolute;
   left: 0;
@@ -14,16 +15,14 @@ body {
   width: 100%;
 }
 
-
-#homePage {
-  height: 600px;
-  width: auto;
-  background: url(../images/road-220058_1280.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-
 #road {
   text-align: center;
+  background: url(../images/road-220058_1280.jpg) no-repeat center center fixed;
+  background-size: cover;
+  position: absolute;
+  top: 64px;
+  bottom: 100px;
+  width: 100%;
 }
 
 .centerText {
@@ -32,28 +31,6 @@ body {
 
 #project {
   margin-bottom: 200px
-}
-
-@media only screen and (max-width: 941px) {
-  
-  #homePage {
-    height: 600px;
-    width: auto;
-    background: url(../images/road-220058_1280.jpg) no-repeat center center fixed;
-    background-size: cover;
-  }
-
-#emptyProjects {
-    display: none;
-}
-
-#road {
-  text-align: center;
-}
-
-.centerText {
-  margin-top: 100px;
-}
 }
 
 .navigation {
@@ -65,10 +42,35 @@ body {
   overflow-y: hidden;
   margin-top: 10px;
 }
+
 .task-item1{
   margin-top: 10px;
 }
+
 .task-name {
-padding-top: 20px;
+  padding-top: 20px;
 }
+
+
+@media only screen and (max-width: 941px) {
+  #homePage {
+    height: 600px;
+    width: auto;
+    background: url(../images/road-220058_1280.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  #emptyProjects {
+    display: none;
+  }
+
+  #road {
+    text-align: center;
+  }
+
+  .centerText {
+    margin-top: 100px;
+  }
+}
+
 
