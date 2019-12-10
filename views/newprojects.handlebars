@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="nav-wrapper ">
                     <!-- Navigation Links -->
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <a href="#" data-target="sidenav-on-newproject" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li>Hello, {{ username }}</li>
                         <li><a href="/dashboard" class="topNavSearch">Dashboard</a></li>
@@ -14,8 +14,8 @@
                 </div>
             </div>
         </nav>
-        <ul class="sidenav" id="mobile-demo">
-            <li>Hello, {{ username }}</li>
+        <ul class="sidenav" id="sidenav-on-newproject">
+            <li><a href="#">Hello, {{ username }}</a></li>
             <li><a href="/dashboard" class="topNavSearch">Dashboard</a></li>
             <li><a href="/logout" class="topNavSearch">Log Out</a></li>
         </ul>
@@ -67,10 +67,18 @@
     <br>
 </main>
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="../js/materialize.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
 <script>
 
     $(document).ready(function () {
