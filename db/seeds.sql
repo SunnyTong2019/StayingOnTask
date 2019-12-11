@@ -1,7 +1,7 @@
 USE exampledb;
 
 INSERT INTO ProjectTypes (name,createdAt,updatedAt)
-values("birthday", now(), now()),("wedding", now(), now());;
+values("birthday", now(), now()),("wedding", now(), now());
 
 
 
@@ -39,7 +39,7 @@ VALUES
 ("Purchase Party Favors", now(), now(), 1, 5),
 ("Purchase party supplies", now(), now(), 1, 5),
 ("Purchase additonal party supplies", now(), now(), 1, 5),
-("Purchase food and drink", now(), now(), 1, 5)
+("Purchase food and drink", now(), now(), 1, 5);
 
 
 
