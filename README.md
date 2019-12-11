@@ -8,11 +8,11 @@ Every year, countless hours are spent on figuring out and writing down the tasks
 
 StayingOnTask helps users cut down the time needed to create tasks and manage their projects.
 
-Our first themes are birthday parties and weddings that come with prepopulated tasks for each event
+Our first themes are birthday parties and weddings that come with prepopulated tasks for each event.
 
 ## Tech/framework used
 
-This app uses MySQL, Node.js, HTML, Javascript, Express, Passport, Handlebars and Sequelizer, EsLint, TravisCI, Materialize, Moment and DotEnv.
+This app uses HTML, Materialize CSS, JavaScript, JQuery, Node.js, Passport, Express, Express-Handlebars, MySQL, Sequelize, ESLint and Travis CI.
 
 ## Features
 
@@ -20,25 +20,25 @@ This app uses MySQL, Node.js, HTML, Javascript, Express, Passport, Handlebars an
 
 <img src="public/images/login.png">
 
-2)	Users can add projects with prepopulated tasks
+2) Users can add projects with prepopulated tasks.
 
 <img src="public/images/empty-dashboard.png">
 
 <img src="public/images/add-project.png">
 
-3)	A dashboard with a list of all of the projects for that user
+3) A dashboard with a list of all of the projects for that user.
 
 <img src="public/images/dashboard.png">
 
-4)	A task page with all of the tasks under that project
+4) A task page with all of the tasks under that project.
 
 <img src="public/images/task.png">
 
-Notes: Users can add their own tasks, if they so chose and delete the prepopulated tasks.
+Notes: Users can add their own tasks, if they choose to delete the prepopulated tasks.
 
 ## Deployed Site
 
-App is deployed on Heroku using JawsDB: https://project2-efm-st-cb.herokuapp.com/
+App is deployed on Heroku using JawsDB MySQL: https://staying-on-task.herokuapp.com/
 
 ## Credits
 
