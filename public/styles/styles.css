@@ -3,11 +3,16 @@ html {
   min-height: 100%;
 }
 
+#space {
+  height: 150px;
+}
+
 .page-footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+  z-index: 999;
 }
 
 #road {
